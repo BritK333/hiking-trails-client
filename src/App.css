@@ -459,6 +459,34 @@ span {
   .city-box h2 {
     padding: 0 8px;
   }
+
+  .boulder-list-section,
+  .cSprings-list-section,
+  .ePark-list-section,
+  .golden-list-section,
+  .iSprings-list-section,
+  .sPlume-list-section {
+    background-color: #3d4d70e3;
+    color: #fff;
+    margin: 15px 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: center;
+    box-shadow: 3px 3px 5px #888;
+  }
+
+  .boulder-content-item,
+  .cSprings-content-item,
+  .ePark-content-item,
+  .golden-content-item,
+  .iSprings-content-item,
+  .sPlume-content-item {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-shadow: 1px 1px 1px #000;
+    color: #e6c4c4;
+  }
 }
 
 @media only screen and (max-width: 500px) {
