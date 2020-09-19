@@ -13,15 +13,15 @@ function SearchByDifficulty() {
 
          <div className="difficulty-row">
             <Link to="/easy-trails" className="difficulty-box">
-               <section><h2>Easy</h2></section>
+               <section><h2>E  a  s  y</h2></section>
             </Link>
 
             <Link to="/moderate-trails" className="difficulty-box">
-               <section><h2>Moderate</h2></section>
+               <section><h2>M  o  d  e  r  a  t  e</h2></section>
             </Link>
 
             <Link to="/hard-trails" className="difficulty-box">
-               <section><h2>Hard</h2></section>
+               <section><h2>H  a  r  d</h2></section>
             </Link>
          </div>
 

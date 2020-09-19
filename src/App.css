@@ -502,14 +502,14 @@ span {
     color: #fff;
     background-color: #b96363;
     width: 80%;
-    height: 30vh;
+    height: 15vh;
     text-align: center;
     font-size: 16px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    margin: 5px;
+    margin: 10px;
     box-shadow: 3px 3px 5px #555;
     text-shadow: 1px 1px 3px #000;
   }
