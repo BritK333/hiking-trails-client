@@ -443,7 +443,7 @@ span {
     border: 1px solid #444;
     color: #fff;
     background-color: #b96363;
-    width: 30%;
+    width: 26.6%;
     height: 25vh;
     text-align: center;
     font-size: 12px;
@@ -486,6 +486,32 @@ span {
     margin-right: 15px;
     text-shadow: 1px 1px 1px #000;
     color: #e6c4c4;
+  }
+
+  .difficulty-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .difficulty-box {
+    text-decoration-line: none;
+    border: 1px solid #444;
+    color: #fff;
+    background-color: #b96363;
+    width: 80%;
+    height: 30vh;
+    text-align: center;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    box-shadow: 3px 3px 5px #555;
+    text-shadow: 1px 1px 3px #000;
   }
 }
 
