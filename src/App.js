@@ -32,7 +32,7 @@ function App({id}) {
         Colorado Hiking Trails
         <span>by Brit Kelley</span>
         <Link to="/" className="link-home">
-          <HomeIcon style={{fontSize: "35px"}} className="home-icon" />
+          <HomeIcon style={{fontSize: "30px"}} className="home-icon" />
           <p className="icon-desc">HOME</p>
         </Link>
       </h1>

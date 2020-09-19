@@ -32,7 +32,7 @@ function TrailsList({id}) {
                   <li className="list-item">
                      {name}
                      <Link to={`/${id}`} className="link-details">
-                        <DetailsIcon style={{ fontSize: 45 }} className="details-icon" />
+                        <DetailsIcon style={{ fontSize: 40 }} className="details-icon" />
                         <p className="link-details-content">More Details</p>
                      </Link>
                   </li>

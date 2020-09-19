@@ -542,6 +542,10 @@ span {
     padding: 0 10px;
   }
 
+  .details-icon {
+    font-size: 35px!important;
+  }
+
   .menu-option-box {
     text-decoration-line: none;
     border: 1px solid #444;

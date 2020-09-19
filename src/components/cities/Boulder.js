@@ -1,5 +1,6 @@
 import React from "react"
 import {Link} from "react-router-dom"
+import CircularProgress from '@material-ui/core/CircularProgress'
 import { gql, useQuery } from "@apollo/client"
 
 const BOULDER_TRAILS = gql`
@@ -21,7 +22,7 @@ function Boulder() {
       variables: {city: "Boulder"}
    })
 
-   if (loading) return <p>Loading...</p>;
+   if (loading) return <CircularProgress />;
    if (error) return <p>Error :(</p>;
    if (!data) return <p>Not data</p>
 
