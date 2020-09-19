@@ -1,5 +1,6 @@
 import React from "react"
 import {Link} from "react-router-dom"
+import CircularProgress from '@material-ui/core/CircularProgress';
 import { gql, useQuery } from "@apollo/client"
 
 const Get_Trail_Details = gql`
@@ -24,7 +25,7 @@ function TrailDetails({ match }) {
       variables: { id: match.params.id }, // match.params needed to get id clicked on from TrailsList
     })
 
-   if (loading) return <p>Loading...</p>;
+   if (loading) return <CircularProgress />;
    if (error) return <p>Error :(</p>;
    if (!data) return <p>Not data</p>
 

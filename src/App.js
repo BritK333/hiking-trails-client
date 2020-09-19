@@ -17,6 +17,9 @@ import EasyTrails from "./components/difficulties/EasyTrails"
 import ModerateTrails from "./components/difficulties/ModerateTrails"
 import HardTrails from "./components/difficulties/HardTrails"
 
+// deployment help from 
+// "React GraphQL App (MERNG): #11 Deployment to Heroku & Netlify"
+
 
 // import AppsIcon from '@material-ui/icons/Apps'
 

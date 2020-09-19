@@ -33,6 +33,7 @@ code {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .App-header span {
@@ -56,6 +57,22 @@ code {
   text-decoration-line: none;
   outline: none;
   color: inherit;
+}
+
+.link-details {
+  text-decoration-line: none;
+  outline: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link-details-content {
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px 0 0 0;
 }
 
 .link-home {
@@ -390,4 +407,84 @@ span {
   margin-right: 50px;
   text-shadow: 1px 1px 1px #000;
   color: #e6c4c4;
+}
+
+@media only screen and (max-width: 700px) {
+  .App-header span {
+    display: none;
+  }
+
+  .link-details-content {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .details-content {
+    background-color: #3d4d70e3;
+    color: #fff;
+    margin: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: center;
+    box-shadow: 3px 3px 5px #888;
+  }
+
+  .content-item {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-shadow: 1px 1px 3px #000;
+    color: #e6c4c4;
+  }
+
+  .city-box {
+    text-decoration-line: none;
+    border: 1px solid #444;
+    color: #fff;
+    background-color: #b96363;
+    width: 30%;
+    height: 25vh;
+    text-align: center;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    box-shadow: 3px 3px 5px #555;
+    text-shadow: 1px 1px 3px #000;
+  }
+
+  .city-box h2 {
+    padding: 0 8px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .App-header {
+    padding: 0 10px;
+  }
+
+  .menu-option-box {
+    text-decoration-line: none;
+    border: 1px solid #444;
+    color: #fff;
+    background-color: #b96363;
+    width: 90%;
+    height: 20vh;
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    box-shadow: 3px 3px 5px #555;
+    text-shadow: 1px 1px 3px #000;
+  }
+
+  .list-item {
+    font-size: 18px;
+  }
 }

@@ -1,5 +1,6 @@
 import React from "react"
 import { gql, useQuery } from "@apollo/client"
+import CircularProgress from '@material-ui/core/CircularProgress';
 import {Link} from "react-router-dom"
 
 const EASY_TRAILS = gql`
@@ -21,7 +22,7 @@ function EasyTrails() {
       variables: {difficulty: "easy"}
    })
 
-   if (loading) return <p>Loading...</p>
+   if (loading) return <CircularProgress />
    if (error) return <p>Error :(</p>
    if (!data) return <p>Try Again!</p>
 
